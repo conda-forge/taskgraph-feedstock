@@ -5,7 +5,7 @@ Home: https://github.com/natcap/taskgraph
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Task-based parallelism and avoided recomputation for Python
 
