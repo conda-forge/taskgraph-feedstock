@@ -5,11 +5,11 @@ Home: https://github.com/natcap/taskgraph
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taskgraph-feedstock/blob/master/LICENSE.txt)
 
 Summary: Task-based parallelism and avoided recomputation for Python
 
-
+Development: https://github.com/natcap/taskgraph
 
 Current build status
 ====================
