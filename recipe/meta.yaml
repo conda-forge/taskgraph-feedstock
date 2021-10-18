@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools_scm
   run:
-    - python
+    - python >=3.6
     - psutil
     - retrying >=1.3.0
     - setuptools
@@ -27,6 +27,7 @@ requirements:
 test:
   requires:
     - pytest
+    - rstcheck
   source_files:
     - tests
   imports:
