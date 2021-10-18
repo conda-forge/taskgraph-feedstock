@@ -30,6 +30,7 @@ test:
     - rstcheck
   source_files:
     - tests
+    - HISTORY.rst
   imports:
     - taskgraph
   commands:
