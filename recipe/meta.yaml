@@ -1,15 +1,15 @@
 {% set name = "taskgraph" %}
-{% set version = "0.11.1" %}
+{% set version = "0.11.2" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 536cf4fc4dde6ae9f953363b52917f3eb961313178053694a154d872b5f3fc3d
+  sha256: 1df18759418150e74c54dfd7c23d1272974e88e7f96257de3ec65156ef1de532
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
